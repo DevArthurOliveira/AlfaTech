@@ -1,0 +1,140 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins', sans-serif;
+}
+
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*secao topo*/
+.topo {
+    background-color: #2f86d6;
+}
+
+.secao-preco {
+    position:relative;
+    padding:35px 0px;
+}
+.topo-preco {
+    position:relative;
+}
+.secao-preco img {
+    width:80px;
+
+}
+.topo-preco div {
+    position:absolute;
+    top:0;
+    left:95px;
+}
+
+.topo-preco h1 {
+    font-size:32px;
+    color:#000000;
+}
+
+.topo-preco p {
+    font-size:16px;
+    color:#fff;
+
+}
+.links {
+    position:absolute;
+    right:0;
+    top:65px;
+}
+.links a {
+    font-size:18px;
+    color:#fff;
+    text-decoration:none;
+    padding:10px;
+}
+
+/* conteudo principal*/
+
+.conteudo-principal {
+    padding:100px 0px;
+}
+.conteudo-principal table {
+    margin:0 auto;
+}
+.celula-escondida {
+    visibility: hidden;    
+}
+
+.celula-cabecalho, .primeira-celula {
+    background-color: #f1f3f7;
+    padding:20px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+.primeira-celula {
+    font-weight:500;
+    color:#000000
+}
+.celula-cabecalho p {
+    color:#a89f9f;
+    font-size:13px;
+}
+.celula-cabecalho h2 {
+    font-size:32px;
+}
+tbody td {
+    padding:20px;
+    text-align:center;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.marcador-azul {
+    width:20px;
+    height:20px;
+    margin:0 auto;
+    border-radius:100px;
+    background-color: #2f86d6;
+}
+/*rodape */
+
+.rodape-precos {
+    padding:80px 0px;
+    background-color: #2f86d6;
+    font-weight:600;
+}
+.logo-rodape {
+    width:320px;
+    margin:30px auto;
+    position:relative;
+}
+.logo-rodape img {
+    width:80px
+}
+.logo-rodape div {
+    position:absolute;
+    left:95px;
+    top:0;
+}
+.logo-rodape div p {
+    color:#fff;
+}
+.p-rodape {
+    color:#fff;
+    text-align:center;
+}
+.rodape-final {
+    padding:20px 0px;
+    background-color: #fff;
+}
+.rodape-final p {
+    color:#000000;
+    text-align:center;
+    font-weight:600
+}
+.rodape-final span {
+    color:#2f86d6;
+}
